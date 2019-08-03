@@ -3,35 +3,37 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Karin Lilliehöök',
+  subtitle: 'Novice but ambitious developer – Passionate about entrepreneurship – Profound experience from successful start-ups',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  // postsPerPage: 4,
+  // googleAnalyticsId: 'UA-73379983-2',
   menu: [
     {
-      label: 'Articles',
+      label: 'About',
       path: '/'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'Experience',
+      path: '/experience',
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
+      label: 'Contact',
+      path: '/contact'
+    },
   ],
   author: {
-    name: 'John Doe',
+    name: 'Karin Lilliehöök',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Novice but ambitious developer. Passionate about entrepreneurship. Profound experience from successful start-ups.',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'karin@lilliehooks.se',
+      linkedin: 'karin-lilliehöök',
+      github: 'karinlilliehook',
+      telegram: 'karinlilliehook',
+      instagram: 'karinlilliehook',
+      twitter: 'KarinLilliehook',
       rss: '#',
       vkontakte: '#'
     }

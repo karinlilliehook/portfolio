@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
     return (
       <Layout title={`Home - Karin Lilliehöök`}>
         <Sidebar />
-        <Page title={`About`}>
+        <Page title={`About me`}>
         <div
           dangerouslySetInnerHTML={{ __html: about.html }}
         />
@@ -40,6 +40,7 @@ export const pageQuery = graphql`
           frontmatter {
             slug
             title
+
           }
         }
       }

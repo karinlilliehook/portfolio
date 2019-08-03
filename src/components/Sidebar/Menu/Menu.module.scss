@@ -15,8 +15,9 @@
 
       &-link {
         font-size: $typographic-base-font-size;
+        font-family: $typographic-font-family;
         color: $typographic-base-font-color;
-        font-weight: normal;
+        font-weight: 600;
         border: 0;
 
         &:hover,

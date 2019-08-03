@@ -1,4 +1,4 @@
-/** 
+/**
  * Generic
  */
 html {
@@ -7,7 +7,7 @@ html {
 
 body {
   margin: 0;
-  font-family: $typographic-font-family;
+  font-family: $typographic-font-family-secondary;
   color: $typographic-base-font-color;
   line-height: $typographic-base-line-height;
   font-size: $typographic-base-font-size;
@@ -46,14 +46,18 @@ h3 {
   font-size: $typographic-base-font-size * 1.375;
   @include line-height(1);
   @include margin-top(2);
-  @include margin-bottom(.5);
+  @include margin-bottom(0.2);
 }
 
 h4 {
-  font-size: $typographic-base-font-size * 1.2;
-  @include line-height(1);
-  @include margin-top(1.5);
-  @include margin-bottom(.5);
+  font-family: $typographic-font-family-secondary;
+  font-size: $typographic-base-font-size * .9;
+  @include line-height(.8);
+  @include margin-top(.2);
+  @include margin-bottom(.2);
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $color-gray;
 }
 
 h5 {
@@ -121,7 +125,7 @@ ul {
 
 p {
   @include line-height(1);
-  @include margin-bottom(1);
+  @include margin-bottom(0.5);
 }
 
 blockquote {
@@ -167,3 +171,40 @@ figcaption {
   }
 
 }
+
+// Backgrounds
+
+.home-bg, .experience-bg, .contact-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  margin: auto !important;
+  filter: grayscale(100%);
+}
+
+@include breakpoint-sm {
+  .home-bg, .experience-bg, .contact-bg {
+    lost-column: 5/12;
+  }
+}
+
+@include breakpoint-md {
+  .home-bg, .experience-bg, .contact-bg {
+    // lost-column: 1/4;
+    lost-column: 6/20;
+
+  }
+}
+
+// Ipad
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .home-bg, .experience-bg, .contact-bg {
+    lost-column: 7/12;
+  }
+}
+
+
+
+
+

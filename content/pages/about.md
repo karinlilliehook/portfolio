@@ -1,12 +1,16 @@
 ---
 title: "About me"
 template: "page"
+slug: about
 ---
+<img class='home-bg' alt="Under a blue rain tree in Amsterdam" src="/media/blue-rain-amsterdam.JPG">
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
+I am Karin Lilliehöök, customer service star turned developer <br>pursuing my dream of driving innovation through tech.
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+With the strength of logical thinking and an eye for detail <br>I create strong and beautiful applications.
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+I love the process of going from that great idea, all the way to <br>the finished product. With my versatile skillset and team-player <br>spirit I am able to contribute all the way.
+
+You can check out my resume [here](resume "Karin's resume") and if you want to get in touch <br>right away, [here](contact "Karin's details") is where you find my details.
+
