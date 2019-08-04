@@ -12,5 +12,5 @@ With the strength of logical thinking and an eye for detail <br>I create strong 
 
 I love the process of going from that great idea, all the way to <br>the finished product. With my versatile skillset and team-player <br>spirit I am able to contribute all the way.
 
-You can check out my resume [here](resume "Karin's resume") and if you want to get in touch <br>right away, [here](contact "Karin's details") is where you find my details.
+You can check out my resume [here](experience "Karin's resume") and if you want to get in touch <br>right away, [here](contact "Karin's details") is where you find my details.
 
